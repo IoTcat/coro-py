@@ -5,7 +5,11 @@
 
 ### 引入依赖
 ```
-$ npm i coro-py 
+$ npm i coro-py
+```
+或者
+```
+$ yarn add coro-py
 ```
 
 ### 打印所有数据
