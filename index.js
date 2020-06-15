@@ -9,7 +9,7 @@ module.exports = async (params) => {
 	var o_params = {
 		reg: {
 			inland: /getAreaStat\s=\s([\s\S]*?)}catch\(e\)/,
-			oversea: /getListByCountryTypeService2\s=\s([\s\S]*?)}catch\(e\)/
+			oversea: /getListByCountryTypeService2true\s=\s([\s\S]*?)}catch\(e\)/
 		},
 		url: 'https://ncov.dxy.cn/ncovh5/view/pneumonia'
 	}
